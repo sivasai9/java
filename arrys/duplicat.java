@@ -1,4 +1,3 @@
-package arrys;
 
 public class duplicat {
 

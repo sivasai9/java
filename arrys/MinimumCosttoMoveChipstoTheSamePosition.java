@@ -1,4 +1,4 @@
-package arrys;
+
 
 public class MinimumCosttoMoveChipstoTheSamePosition {
     public static void main(String[] args) {

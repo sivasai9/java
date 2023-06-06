@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Node {
+public class Node {
+    public int val;
+    public Node next;
+
 }

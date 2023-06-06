@@ -9,10 +9,6 @@ public class basic_opps {
         student [] students=new student[5];
         System.out.println(Arrays.toString(students));
         student obj=new student();
-
-        
-
-        
     }
 
     public static class student {
