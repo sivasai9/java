@@ -1,4 +1,4 @@
-package oops;
+
 
 import java.util.Arrays;
 
@@ -15,6 +15,7 @@ public class basic_opps {
         int rno;
         String name;
         float marks;
+        
        
 
     }

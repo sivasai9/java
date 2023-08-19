@@ -1,4 +1,4 @@
-package strings;
+
 
 public class revestring {
     public static void main(String[] args) {

@@ -4,12 +4,13 @@ public class pattern1 {
         patt(n);
 
     }
-
-    static void patt(int n){
+    public static void patt(int n){
+        
         for(int row=1;row<=n;row++){
+            int p=row;
             for(int col=1;col<=row;col++){
-                System.out.print("*");
-
+                System.out.print(p++);
+                
             }
             System.out.println();
         }

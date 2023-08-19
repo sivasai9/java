@@ -1,4 +1,4 @@
-package pattrns;
+
 
 public class patttern10 {
     public static void main(String[] args) {

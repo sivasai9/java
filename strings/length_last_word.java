@@ -1,4 +1,4 @@
-package strings;
+
 
 public class length_last_word {
     public static void main(String[] args) {

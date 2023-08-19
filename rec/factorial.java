@@ -1,4 +1,4 @@
-package rec;
+// package rec;
 
 public class factorial {
     public static void main(String[] args) {

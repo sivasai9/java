@@ -1,4 +1,4 @@
-package sorting_algo;
+
 
 import java.util.Arrays;
 
@@ -9,7 +9,6 @@ public class selection {
         System.out.println(Arrays.toString(arr));
         
     }
-
     static void selection(int arr[]){
         for(int i=0;i<arr.length;i++){
             int last=arr.length-i-1;

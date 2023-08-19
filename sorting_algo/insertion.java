@@ -1,4 +1,3 @@
-package sorting_algo;
 
 import java.util.Arrays;
 
@@ -9,9 +8,7 @@ public class insertion {
     public static void main(String[] args) {
         int [] arr={5,3,4,1,2};
         insertion_sort(arr);
-        System.out.println(Arrays.toString(arr));
-
-        
+        System.out.println(Arrays.toString(arr));  
     }
     static void insertion_sort(int [] arr){
         for(int i=0;i<arr.length-1;i++){

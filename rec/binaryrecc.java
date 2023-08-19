@@ -1,10 +1,10 @@
-package rec;
+// package rec;
 
 public class binaryrecc {
     public static void main(String[] args) {
        int arr[]={1,5,6,3,9};
        int end=arr.length-1;
-        System.out.println(search(arr,6,0,end));
+        System.out.println(search(arr,9,0,end));
     }
     public static int search(int arr[],int target,int s,int e){
         

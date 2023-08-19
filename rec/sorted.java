@@ -1,4 +1,4 @@
-package rec;
+// package rec;
 
 public class sorted {
     public static void main(String[] args) {

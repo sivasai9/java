@@ -1,4 +1,4 @@
-package sorting_algo;
+
 import java.util.*;
 
 public class miss_num {

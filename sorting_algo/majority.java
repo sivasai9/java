@@ -1,4 +1,4 @@
-package sorting_algo;
+// package sorting_algo;
 
 public class majority {
     public static void main(String[] args) {
@@ -13,17 +13,13 @@ public class majority {
             if(nums[j]==majority){
                 count++;
             }
-
             else{
                 count--;
                 if(count==0){
                     majority=nums[j];
                     count=1;
                 }
-
             }
-        
-
         }
        
         return majority;

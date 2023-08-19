@@ -1,4 +1,4 @@
-package sorting_algo;
+
 
 public class missingnum {
     public static void main(String[] args) {
