@@ -15,8 +15,9 @@ public class LL {
         if(tail==null){
             tail=head;
         }
-        size+=1;
+        size++;
     }
+
     public void insertlast(int val){
         if(tail==null){
             insertFirst(val);
@@ -26,6 +27,7 @@ public class LL {
         tail.next=node;
         tail=node;
     }
+
     public void insert(int val,int index){
         if(index==0){
             insertFirst(val);
@@ -36,7 +38,7 @@ public class LL {
             return;
         }
         Node temp=head;
-        for (int i = 0; i < index; i++) {
+        for (int i = 1; i < index; i++) {
             temp=temp.next;  
         }
         Node node=new Node(val,temp.next);
@@ -85,23 +87,17 @@ public class LL {
             node=node.next;
         }
         return node;
-
     }
     public Node find(int value){
         Node node=head;
         while(node!=null){
             if(node.value==value){
                 return node;
-
             }
             node=node.next;
         }
         return null;
     }
-
-
-
-
     public void dispaly(){
         Node temp=head;
         while(temp!=null){
@@ -145,8 +141,6 @@ public class LL {
     private class Node{
         private int value;
         private Node next;
-        
-
         public Node(int value){
             this.value=value;
         }

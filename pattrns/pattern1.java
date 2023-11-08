@@ -7,9 +7,8 @@ public class pattern1 {
     public static void patt(int n){
         
         for(int row=1;row<=n;row++){
-            int p=row;
             for(int col=1;col<=row;col++){
-                System.out.print(p++);
+                System.out.print("*");
                 
             }
             System.out.println();
